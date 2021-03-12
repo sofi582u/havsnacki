@@ -66,17 +66,35 @@ p {
 
 .hav-section-box {
   background-image: url(../img/ship.jpg);
-  height: 300px;
+  height: auto;
   padding: 20px;
 }
 
-.hav-section-box-bg1 {
-  background-image: url(../img/ship.jpg);
-  height: 300px;
-  width: 100vw;
+.hav-section-box-2 {
+  height: auto;
   padding: 20px;
 }
 
 .hav-footer {
   background-color: black;
+}
+
+.hav-align-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.hav-space-between {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hav-bg {
+  height: 100vh;
+  background-image: url(/img/shape.png);
+  background-attachment: fixed;
+  background-size: cover;
 }
