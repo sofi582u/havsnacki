@@ -19,6 +19,13 @@ h2 {
   font-size: 1.25rem;
 }
 
+header h2 {
+  font-family: "Bubbble Gumm", sans-serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: #000000;
+}
+
 h3 {
   font-family: "Bubbble Gumm", sans-serif;
   font-style: italic;
@@ -31,6 +38,10 @@ p {
   max-width: 960px;
 }
 
+.nav-link {
+  color: #000000;
+}
+
 :root {
   --primary: #3a243f;
   --secondary: red;
@@ -39,7 +50,7 @@ p {
 .davi-btn-primary {
   background-color: var(--primary);
   color: #fff !important;
-  font-family: "Helvetica Neue";
+  font-family: "Bubbble Gum";
 }
 
 .davi-hero {
