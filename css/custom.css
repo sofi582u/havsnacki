@@ -7,6 +7,19 @@
   src: url("/bubbble-gum.light-webfont.woff2") format("woff2");
 }
 
+.slogan {
+  width: 30%;
+}
+
+.col {
+  flex-basis: 350px;
+  flex-grow: 1;
+}
+
+img {
+  width: 100%;
+}
+
 h1 {
   font-family: "Bubbble Gum", sans-serif;
   font-size: 2.4rem;
@@ -38,8 +51,15 @@ p {
   max-width: 960px;
 }
 
-.nav-link {
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #fff;
+  font-family: "Raleway";
+}
+
+.navbar-dark .navbar-nav .nav-link {
   color: #000000;
+  font-family: "Raleway";
 }
 
 :root {
@@ -58,7 +78,7 @@ p {
   background-color: var(--primary);
   background-size: cover;
   /* background-blend-mode: overlay; */
-  background-position: 100% 50%;
+  background-position: center;
   height: calc(100vh - 56px);
 }
 
@@ -68,11 +88,24 @@ p {
     min-height: 300px;
   }
 }
+@media (min-width: 768px) {
+  .davi-hero {
+    height: 70vh;
+    min-height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .davi-hero {
+    height: 80vh;
+    min-height: 300px;
+  }
+}
 
 .hav-img {
   background-image: url(../img/ship.jpg);
   background-size: cover;
   background-position: center;
+  height: 300px;
 }
 
 .hav-section-box {
