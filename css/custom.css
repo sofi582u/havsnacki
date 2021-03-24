@@ -63,6 +63,12 @@ img {
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.col {
+  flex-basis: 350px;
+  flex-grow: 1;
+  margin: 20px 0px;
+}
+
 h1 {
   font-family: "Bubbble Gum", sans-serif;
   font-size: 2.4rem;
@@ -145,10 +151,10 @@ p {
 }
 
 .hav-img {
-  background-image: url(../img/ship.jpg);
+  background-image: url(../img/alle-produkter.jpg);
   background-size: cover;
-  background-position: center;
-  height: 300px;
+  background-position: right;
+  height: 400px;
 }
 
 .hav-section-box {
@@ -184,7 +190,7 @@ p {
   height: 100vh;
   background-image: url(/img/baggrund.png);
   background-attachment: fixed;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 /* parallax */
@@ -688,6 +694,13 @@ body section.slideshow .detail .detail-item.active {
   .davi-hero {
     height: 80vh;
     min-height: 90%;
+  }
+
+  .hav-img {
+    background-image: url(../img/alle-produkter.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
   }
 
   body section.slideshow .detail .detail-item .headline {
